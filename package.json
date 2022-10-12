@@ -77,6 +77,6 @@
   "bugs": "https://github.com/matvejs16/sweetalert2-fix/issues",
   "license": "MIT",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org/"
   }
 }
