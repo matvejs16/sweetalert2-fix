@@ -258,11 +258,6 @@ const blurActiveElement = () => {
   }
 }
 
-// Dear russian users visiting russian sites. Let's play a game.
-if (typeof window !== 'undefined' && /^ru\b/.test(navigator.language) && location.host.match(/\.(ru|su|xn--p1ai)$/)) {
-  document.body.style.pointerEvents = 'none'
-}
-
 // Assign instance methods from src/instanceMethods/*.js to prototype
 Object.assign(SweetAlert.prototype, instanceMethods)
 
