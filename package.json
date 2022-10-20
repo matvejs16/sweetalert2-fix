@@ -1,7 +1,7 @@
 {
-  "name": "sweetalert2",
+  "name": "sweetalert2-fix",
   "version": "11.6.0",
-  "repository": "sweetalert2/sweetalert2",
+  "repository": "matvejs16/sweetalert2-fix",
   "homepage": "https://sweetalert2.github.io/",
   "description": "A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes, supported fork of sweetalert",
   "main": "dist/sweetalert2.all.js",
@@ -46,15 +46,8 @@
     "src",
     "sweetalert2.d.ts"
   ],
-  "author": "Limon Monte <limon.monte@gmail.com> (https://limonte.github.io)",
-  "contributors": [
-    "Giuseppe Verni (https://github.com/gverni)",
-    "Matthew Francis Brunetti <zenflow87@gmail.com> (https://github.com/zenflow)",
-    "Morgan Touverey-Quilling <mtouverey@alembic-dev.com> (https://github.com/toverux)",
-    "Sam Turrell <sam@samturrell.co.uk> (https://github.com/samturrell)",
-    "Joseph Schultz (https://github.com/acupofjose)",
-    "Johan Fagerberg (https://github.com/birjolaxew)"
-  ],
+  "author": "Matvej Makushin <matvejs16@gmail.com> | [Original] Limon Monte <limon.monte@gmail.com> (https://limonte.github.io)",
+  "contributors": [],
   "keywords": [
     "sweetalert",
     "sweetalert2",
@@ -74,10 +67,6 @@
     "check-types": "tsc --noEmit -p jsconfig.json",
     "cypress:open": "cypress open"
   },
-  "funding": {
-    "type": "individual",
-    "url": "https://sweetalert2.github.io/#donations"
-  },
   "prettier": {
     "printWidth": 120,
     "semi": false,
@@ -85,6 +74,9 @@
     "quoteProps": "consistent",
     "trailingComma": "es5"
   },
-  "bugs": "https://github.com/sweetalert2/sweetalert2/issues",
-  "license": "MIT"
+  "bugs": "https://github.com/matvejs16/sweetalert2-fix/issues",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
 }
