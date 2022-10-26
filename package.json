@@ -63,11 +63,11 @@
     "accessible"
   ],
   "scripts": {
-    "start": "vite sandbox",
-    "start:gulp": "gulp develop --continue-on-error --skip-minification --skip-standalone",
+    "start": "gulp develop --continue-on-error --skip-minification --skip-standalone",
+    "start:vite": "vite sandbox",
     "lint": "stylelint src/**/*.scss && eslint src cypress *.js *.ts && prettier --check src/**/*.js cypress/**/*.js *.js",
-    "build": "node tools/build.mjs",
-    "build:gulp": "gulp build",
+    "build": "gulp build",
+    "build:build": "node tools/build.mjs",
     "test": "cypress run --headless",
     "check-types": "tsc --noEmit -p jsconfig.json",
     "cypress:open": "cypress open"
