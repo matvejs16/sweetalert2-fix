@@ -21,9 +21,6 @@ jobs:
       - name: Build
         run: yarn build
 
-      - name: Run linters
-        run: yarn lint
-
       - name: Check types
         run: yarn check-types
 
