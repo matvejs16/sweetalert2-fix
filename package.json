@@ -65,7 +65,7 @@
   "scripts": {
     "start": "gulp develop --continue-on-error --skip-minification --skip-standalone",
     "start:vite": "vite sandbox",
-    "lint": "stylelint src/**/*.scss && eslint src cypress *.js *.ts && prettier --check src/**/*.js cypress/**/*.js *.js",
+    "lint:old": "stylelint src/**/*.scss && eslint src cypress *.js *.ts && prettier --check src/**/*.js cypress/**/*.js *.js",
     "build": "gulp build",
     "build:build": "node tools/build.mjs",
     "test": "cypress run --headless",
