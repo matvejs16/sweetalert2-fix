@@ -1,3 +1,17 @@
+## [11.6.4](https://github.com/sweetalert2/sweetalert2/compare/v11.6.3...v11.6.4) (2022-10-27)
+
+
+### Bug Fixes
+
+* use @rollup/plugin-terser ([19e858a](https://github.com/sweetalert2/sweetalert2/commit/19e858a16c9e7e87633220072bfffac648d4d7d4))
+
+## [11.6.3](https://github.com/sweetalert2/sweetalert2/compare/v11.6.2...v11.6.3) (2022-10-27)
+
+
+### Bug Fixes
+
+* add types to getInput.js ([db5f910](https://github.com/sweetalert2/sweetalert2/commit/db5f9104b82a65dd97e3370da58960b237d325d3))
+
 ## [11.6.2](https://github.com/sweetalert2/sweetalert2/compare/v11.6.1...v11.6.2) (2022-10-24)
 
 
