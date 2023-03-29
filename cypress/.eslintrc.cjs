@@ -6,10 +6,6 @@ module.exports = {
   rules: {
     'no-unsanitized/property': 0,
     'no-unused-expressions': 0,
-<<<<<<< HEAD
-    'import/extensions': 0,
-=======
->>>>>>> upstream/main
     'jsdoc/require-jsdoc': 0,
   },
 }
