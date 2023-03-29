@@ -224,7 +224,7 @@ const initFocus = (domCache, innerParams) => {
   }
 
   if (!focusButton(domCache, innerParams)) {
-    setFocus(innerParams, -1, 1)
+    setFocus(-1, 1)
   }
 }
 
@@ -279,6 +279,6 @@ Object.keys(instanceMethods).forEach((key) => {
 
 SweetAlert.DismissReason = DismissReason
 
-SweetAlert.version = '11.6.4'
+SweetAlert.version = '11.7.3'
 
 export default SweetAlert
