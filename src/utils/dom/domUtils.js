@@ -175,7 +175,11 @@ export const removeClass = (target, classList) => {
  *
  * @param {HTMLElement} elem
  * @param {string} className
+<<<<<<< HEAD
  * @returns {HTMLElement | null}
+=======
+ * @returns {HTMLElement | undefined}
+>>>>>>> upstream/main
  */
 export const getDirectChildByClass = (elem, className) => {
   const children = Array.from(elem.children)
@@ -301,6 +305,9 @@ export const stopTimerProgressBar = () => {
   timerProgressBar.style.width = '100%'
   const timerProgressBarFullWidth = parseInt(window.getComputedStyle(timerProgressBar).width)
   const timerProgressBarPercent = (timerProgressBarWidth / timerProgressBarFullWidth) * 100
+<<<<<<< HEAD
   timerProgressBar.style.removeProperty('transition')
+=======
+>>>>>>> upstream/main
   timerProgressBar.style.width = `${timerProgressBarPercent}%`
 }

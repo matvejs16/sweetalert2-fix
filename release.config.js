@@ -5,7 +5,11 @@ module.exports = {
   prepare: [
     {
       path: '@semantic-release/exec',
+<<<<<<< HEAD
       cmd: 'VERSION=${nextRelease.version} node tools/build-dist.mjs',
+=======
+      cmd: 'VERSION=${nextRelease.version} ./node_modules/.bin/zx tools/build-dist.mjs',
+>>>>>>> upstream/main
     },
     '@semantic-release/changelog',
     '@semantic-release/npm',
@@ -31,7 +35,11 @@ module.exports = {
     '@semantic-release/github',
     {
       path: '@semantic-release/exec',
+<<<<<<< HEAD
       cmd: 'node tools/purge-jsdelivr.mjs',
+=======
+      cmd: './node_modules/.bin/zx tools/purge-jsdelivr.mjs',
+>>>>>>> upstream/main
     },
   ],
 }

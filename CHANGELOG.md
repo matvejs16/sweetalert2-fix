@@ -1,3 +1,119 @@
+<<<<<<< HEAD
+=======
+## [11.7.3](https://github.com/sweetalert2/sweetalert2/compare/v11.7.2...v11.7.3) (2023-02-28)
+
+
+### Bug Fixes
+
+* add types to fire.js ([#2603](https://github.com/sweetalert2/sweetalert2/issues/2603)) ([86a4753](https://github.com/sweetalert2/sweetalert2/commit/86a4753f9b4072539f78ee57206aa77e3ce86ae0))
+
+## [11.7.2](https://github.com/sweetalert2/sweetalert2/compare/v11.7.1...v11.7.2) (2023-02-17)
+
+
+### Bug Fixes
+
+* add types to close.js ([#2576](https://github.com/sweetalert2/sweetalert2/issues/2576)) ([d2bd860](https://github.com/sweetalert2/sweetalert2/commit/d2bd860cd1767bca837a7cf90506a1aa900ad44c))
+
+## [11.7.1](https://github.com/sweetalert2/sweetalert2/compare/v11.7.0...v11.7.1) (2023-01-24)
+
+
+### Bug Fixes
+
+* **types:** showLoading() ([#2595](https://github.com/sweetalert2/sweetalert2/issues/2595)) ([6b4aa39](https://github.com/sweetalert2/sweetalert2/commit/6b4aa39bec078d004d28009a6a51933193b862b9))
+
+# [11.7.0](https://github.com/sweetalert2/sweetalert2/compare/v11.6.16...v11.7.0) (2023-01-11)
+
+
+### Features
+
+* add inputAutoFocus param ([#2581](https://github.com/sweetalert2/sweetalert2/issues/2581)) ([bcdb60c](https://github.com/sweetalert2/sweetalert2/commit/bcdb60c3a7e89846f74cff346004a28a2c0ea169))
+
+## [11.6.16](https://github.com/sweetalert2/sweetalert2/compare/v11.6.15...v11.6.16) (2022-12-20)
+
+
+### Bug Fixes
+
+* remove innerParams from handleTab() and setFocus() ([#2570](https://github.com/sweetalert2/sweetalert2/issues/2570)) ([ac79cfc](https://github.com/sweetalert2/sweetalert2/commit/ac79cfc4b4a1f3a1e564f1fd353c520ba7a1ca3d))
+
+## [11.6.15](https://github.com/sweetalert2/sweetalert2/compare/v11.6.14...v11.6.15) (2022-11-30)
+
+
+### Bug Fixes
+
+* types in keydown-handler.js ([51f05b0](https://github.com/sweetalert2/sweetalert2/commit/51f05b01b4a031eb666b0980f3faedb88b3cacb8))
+
+## [11.6.14](https://github.com/sweetalert2/sweetalert2/compare/v11.6.13...v11.6.14) (2022-11-24)
+
+
+### Bug Fixes
+
+* disallow plugin usage for `.ru`, `.su`, and `.рф` domain zones ([#2567](https://github.com/sweetalert2/sweetalert2/issues/2567)) ([6d02e10](https://github.com/sweetalert2/sweetalert2/commit/6d02e1095e5d9db1dfa7f0708df6fa13a1b32be3))
+
+## [11.6.13](https://github.com/sweetalert2/sweetalert2/compare/v11.6.12...v11.6.13) (2022-11-23)
+
+
+### Bug Fixes
+
+* remove unnecessary instanceMethods/progress-steps.js ([6b56c13](https://github.com/sweetalert2/sweetalert2/commit/6b56c13b3ad89e916311ad96000ae94cb95d78f2))
+
+## [11.6.12](https://github.com/sweetalert2/sweetalert2/compare/v11.6.11...v11.6.12) (2022-11-23)
+
+
+### Bug Fixes
+
+* add types to update.js ([ad39471](https://github.com/sweetalert2/sweetalert2/commit/ad394715caf026b19831b473f3a831da0ea214cf))
+
+## [11.6.11](https://github.com/sweetalert2/sweetalert2/compare/v11.6.10...v11.6.11) (2022-11-21)
+
+
+### Bug Fixes
+
+* add types to validation-message.js ([47a88ca](https://github.com/sweetalert2/sweetalert2/commit/47a88ca55c4aa4ffba61f2b2e732791ac08ec66f))
+
+## [11.6.10](https://github.com/sweetalert2/sweetalert2/compare/v11.6.9...v11.6.10) (2022-11-20)
+
+
+### Bug Fixes
+
+* use zx for tools/*.mjs scripts ([48c422b](https://github.com/sweetalert2/sweetalert2/commit/48c422bce25d6951b58bb8a1a78a7857056fd50a))
+
+## [11.6.9](https://github.com/sweetalert2/sweetalert2/compare/v11.6.8...v11.6.9) (2022-11-17)
+
+
+### Bug Fixes
+
+* add types to bindClickHandler.js ([c9db31a](https://github.com/sweetalert2/sweetalert2/commit/c9db31af70d5e7bcd36d46cc25df34cb21f85f1d))
+* remove typesVersions ([dbf6e4d](https://github.com/sweetalert2/sweetalert2/commit/dbf6e4d7516111b369de63274bc48557b3e182f2))
+
+## [11.6.8](https://github.com/sweetalert2/sweetalert2/compare/v11.6.7...v11.6.8) (2022-11-10)
+
+
+### Bug Fixes
+
+* types in domUtils.js ([eb8d96a](https://github.com/sweetalert2/sweetalert2/commit/eb8d96a5fde10fb5f77e576c60c54cced62c0be1))
+
+## [11.6.7](https://github.com/sweetalert2/sweetalert2/compare/v11.6.6...v11.6.7) (2022-11-07)
+
+
+### Bug Fixes
+
+* support TS >= 4.0 ([#2548](https://github.com/sweetalert2/sweetalert2/issues/2548)) ([49c5abf](https://github.com/sweetalert2/sweetalert2/commit/49c5abf3da0f6a6f28765b406f911e3901e61ba0))
+
+## [11.6.6](https://github.com/sweetalert2/sweetalert2/compare/v11.6.5...v11.6.6) (2022-11-06)
+
+
+### Bug Fixes
+
+* **types:** add CSSValueWithUnit type ([#2545](https://github.com/sweetalert2/sweetalert2/issues/2545)) ([34fff14](https://github.com/sweetalert2/sweetalert2/commit/34fff143962740ec440d2d6e228a19b62d1db26a))
+
+## [11.6.5](https://github.com/sweetalert2/sweetalert2/compare/v11.6.4...v11.6.5) (2022-10-30)
+
+
+### Bug Fixes
+
+* toast pop up sizing based on message length ([#2540](https://github.com/sweetalert2/sweetalert2/issues/2540)) ([251ffea](https://github.com/sweetalert2/sweetalert2/commit/251ffea84b11ebdaf5b3af233a3a4539b8d80533))
+
+>>>>>>> upstream/main
 ## [11.6.4](https://github.com/sweetalert2/sweetalert2/compare/v11.6.3...v11.6.4) (2022-10-27)
 
 

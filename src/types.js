@@ -3,6 +3,10 @@
  * @typedef { import('sweetalert2').SweetAlertOptions } SweetAlertOptions
  * @typedef { import('sweetalert2').SweetAlertIcon } SweetAlertIcon
  * @typedef { import('sweetalert2').SweetAlertInput } SweetAlertInput
+<<<<<<< HEAD
+=======
+ * @typedef { import('sweetalert2').SweetAlertResult } SweetAlertResult
+>>>>>>> upstream/main
  */
 
 /**

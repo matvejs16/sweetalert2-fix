@@ -2,7 +2,10 @@
 name: Question
 about: Ask a question
 labels:
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/main
 ---
 
 Please post your question to StackOverflow: https://stackoverflow.com/questions/ask

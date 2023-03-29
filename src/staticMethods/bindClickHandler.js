@@ -1,6 +1,12 @@
 let bodyClickListenerAdded = false
 const clickHandlers = {}
 
+<<<<<<< HEAD
+=======
+/**
+ * @param {string} attr
+ */
+>>>>>>> upstream/main
 export function bindClickHandler(attr = 'data-swal-template') {
   clickHandlers[attr] = this
 

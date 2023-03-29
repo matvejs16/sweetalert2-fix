@@ -20,6 +20,10 @@ export {
   getTimerProgressBar,
   getFocusableElements,
   getValidationMessage,
+<<<<<<< HEAD
+=======
+  getProgressSteps,
+>>>>>>> upstream/main
   isLoading,
 } from '../utils/dom/index.js'
 

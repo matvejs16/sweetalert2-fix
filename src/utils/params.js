@@ -71,6 +71,10 @@ export const defaultParams = {
   inputLabel: '',
   inputValue: '',
   inputOptions: {},
+<<<<<<< HEAD
+=======
+  inputAutoFocus: true,
+>>>>>>> upstream/main
   inputAutoTrim: true,
   inputAttributes: {},
   inputValidator: undefined,

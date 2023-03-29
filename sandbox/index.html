@@ -18,6 +18,11 @@
 
       import Swal from '../src/sweetalert2.js'
 
+<<<<<<< HEAD
+=======
+      window.Swal = Swal
+
+>>>>>>> upstream/main
       Swal.fire({
         title: 'Test modal with input',
         html: 'custom <strong>content</strong>',
@@ -25,15 +30,26 @@
         icon: 'success',
         showCloseButton: true,
         showCancelButton: true,
+<<<<<<< HEAD
         preConfirm: function (value) {
+=======
+        preConfirm: (value) => {
+>>>>>>> upstream/main
           if (!value) {
             Swal.showValidationMessage('Should not be empty!')
           }
         },
+<<<<<<< HEAD
         didOpen: function (modal) {
           console.log(modal)
         },
       }).then(function (result) {
+=======
+        didOpen: (modal) => {
+          console.log(modal)
+        },
+      }).then((result) => {
+>>>>>>> upstream/main
         console.log(result)
       })
     </script>
