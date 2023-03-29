@@ -2,15 +2,11 @@ import privateProps from '../privateProps.js'
 import { swalClasses } from '../utils/classes.js'
 import * as dom from '../utils/dom/index.js'
 
-<<<<<<< HEAD
-// Show block with validation message
-=======
 /**
  * Show block with validation message
  *
  * @param {string} error
  */
->>>>>>> upstream/main
 export function showValidationMessage(error) {
   const domCache = privateProps.domCache.get(this)
   const params = privateProps.innerParams.get(this)
@@ -30,13 +26,9 @@ export function showValidationMessage(error) {
   }
 }
 
-<<<<<<< HEAD
-// Hide block with validation message
-=======
 /**
  * Hide block with validation message
  */
->>>>>>> upstream/main
 export function resetValidationMessage() {
   const domCache = privateProps.domCache.get(this)
   if (domCache.validationMessage) {

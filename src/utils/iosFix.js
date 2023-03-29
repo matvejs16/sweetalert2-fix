@@ -41,20 +41,6 @@ const lockBodyScroll = () => {
   const container = dom.getContainer()
   let preventTouchMove
   /**
-<<<<<<< HEAD
-   * @param {TouchEvent} e
-   */
-  container.ontouchstart = (e) => {
-    preventTouchMove = shouldPreventTouchMove(e)
-  }
-  /**
-   * @param {TouchEvent} e
-   */
-  container.ontouchmove = (e) => {
-    if (preventTouchMove) {
-      e.preventDefault()
-      e.stopPropagation()
-=======
    * @param {TouchEvent} event
    */
   container.ontouchstart = (event) => {
@@ -67,7 +53,6 @@ const lockBodyScroll = () => {
     if (preventTouchMove) {
       event.preventDefault()
       event.stopPropagation()
->>>>>>> upstream/main
     }
   }
 }

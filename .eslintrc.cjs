@@ -1,22 +1,12 @@
 module.exports = {
-<<<<<<< HEAD
-  extends: ['@sweetalert2/eslint-config', 'plugin:no-unsanitized/DOM'],
-  plugins: ['import'],
-  rules: {
-    'import/extensions': ['error', 'always'],
-=======
   extends: ['@sweetalert2/eslint-config', 'plugin:no-unsanitized/DOM', 'plugin:jsdoc/recommended'],
   plugins: ['jsdoc'],
   rules: {
->>>>>>> upstream/main
     '@typescript-eslint/ban-ts-comment': 0,
     '@typescript-eslint/no-empty-interface': 0,
     '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/no-this-alias': 0,
     '@typescript-eslint/triple-slash-reference': 0,
-<<<<<<< HEAD
-  },
-=======
     'jsdoc/require-param-description': 0,
     'jsdoc/require-property-description': 0,
     'jsdoc/require-returns-description': 0,
@@ -33,5 +23,4 @@ module.exports = {
       },
     },
   ],
->>>>>>> upstream/main
 }

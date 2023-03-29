@@ -5,27 +5,18 @@ import privateProps from '../privateProps.js'
 
 /**
  * Updates popup parameters.
-<<<<<<< HEAD
-=======
  *
  * @param {SweetAlertOptions} params
->>>>>>> upstream/main
  */
 export function update(params) {
   const popup = dom.getPopup()
   const innerParams = privateProps.innerParams.get(this)
 
   if (!popup || dom.hasClass(popup, innerParams.hideClass.popup)) {
-<<<<<<< HEAD
-    return warn(
-      `You're trying to update the closed or closing popup, that won't work. Use the update() method in preConfirm parameter or show a new popup.`
-    )
-=======
     warn(
       `You're trying to update the closed or closing popup, that won't work. Use the update() method in preConfirm parameter or show a new popup.`
     )
     return
->>>>>>> upstream/main
   }
 
   const validUpdatableParams = filterValidParams(params)
@@ -44,13 +35,10 @@ export function update(params) {
   })
 }
 
-<<<<<<< HEAD
-=======
 /**
  * @param {SweetAlertOptions} params
  * @returns {SweetAlertOptions}
  */
->>>>>>> upstream/main
 const filterValidParams = (params) => {
   const validUpdatableParams = {}
   Object.keys(params).forEach((param) => {

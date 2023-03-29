@@ -8,19 +8,12 @@ import * as dom from '../utils/dom/index.js'
 import { undoIOSfix } from '../utils/iosFix.js'
 import { undoScrollbar } from '../utils/scrollbarFix.js'
 
-<<<<<<< HEAD
-/*
- * Instance method to close sweetAlert
- */
-
-=======
 /**
  * @param {SweetAlert2} instance
  * @param {HTMLElement} container
  * @param {boolean} returnFocus
  * @param {Function} didClose
  */
->>>>>>> upstream/main
 function removePopupAndResetState(instance, container, returnFocus, didClose) {
   if (dom.isToast()) {
     triggerDidCloseAndDispose(instance, didClose)
@@ -49,12 +42,9 @@ function removePopupAndResetState(instance, container, returnFocus, didClose) {
   removeBodyClasses()
 }
 
-<<<<<<< HEAD
-=======
 /**
  * Remove SweetAlert2 classes from body
  */
->>>>>>> upstream/main
 function removeBodyClasses() {
   dom.removeClass(
     [document.documentElement, document.body],
@@ -62,14 +52,11 @@ function removeBodyClasses() {
   )
 }
 
-<<<<<<< HEAD
-=======
 /**
  * Instance method to close sweetAlert
  *
  * @param {any} resolveValue
  */
->>>>>>> upstream/main
 export function close(resolveValue) {
   resolveValue = prepareResolveValue(resolveValue)
 
@@ -89,12 +76,9 @@ export function close(resolveValue) {
   }
 }
 
-<<<<<<< HEAD
-=======
 /**
  * @returns {boolean}
  */
->>>>>>> upstream/main
 export function isAwaitingPromise() {
   return !!privateProps.awaitingPromise.get(this)
 }
@@ -123,12 +107,9 @@ const triggerClosePopup = (instance) => {
   return true
 }
 
-<<<<<<< HEAD
-=======
 /**
  * @param {any} error
  */
->>>>>>> upstream/main
 export function rejectPromise(error) {
   const rejectPromise = privateMethods.swalPromiseReject.get(this)
   handleAwaitingPromise(this)
@@ -138,35 +119,25 @@ export function rejectPromise(error) {
   }
 }
 
-<<<<<<< HEAD
-export const handleAwaitingPromise = (instance) => {
-=======
 /**
  * @param {SweetAlert2} instance
  */
 export const handleAwaitingPromise = (instance) => {
   // @ts-ignore
->>>>>>> upstream/main
   if (instance.isAwaitingPromise()) {
     privateProps.awaitingPromise.delete(instance)
     // The instance might have been previously partly destroyed, we must resume the destroy process in this case #2335
     if (!privateProps.innerParams.get(instance)) {
-<<<<<<< HEAD
-=======
       // @ts-ignore
->>>>>>> upstream/main
       instance._destroy()
     }
   }
 }
 
-<<<<<<< HEAD
-=======
 /**
  * @param {any} resolveValue
  * @returns {SweetAlertResult}
  */
->>>>>>> upstream/main
 const prepareResolveValue = (resolveValue) => {
   // When user calls Swal.close()
   if (typeof resolveValue === 'undefined') {
@@ -187,14 +158,11 @@ const prepareResolveValue = (resolveValue) => {
   )
 }
 
-<<<<<<< HEAD
-=======
 /**
  * @param {SweetAlert2} instance
  * @param {HTMLElement} popup
  * @param {SweetAlertOptions} innerParams
  */
->>>>>>> upstream/main
 const handlePopupAnimation = (instance, popup, innerParams) => {
   const container = dom.getContainer()
   // If animation is supported, animate
@@ -212,8 +180,6 @@ const handlePopupAnimation = (instance, popup, innerParams) => {
   }
 }
 
-<<<<<<< HEAD
-=======
 /**
  * @param {SweetAlert2} instance
  * @param {HTMLElement} popup
@@ -221,7 +187,6 @@ const handlePopupAnimation = (instance, popup, innerParams) => {
  * @param {boolean} returnFocus
  * @param {Function} didClose
  */
->>>>>>> upstream/main
 const animatePopup = (instance, popup, container, returnFocus, didClose) => {
   globalState.swalCloseEventFinishedCallback = removePopupAndResetState.bind(
     null,
@@ -238,13 +203,6 @@ const animatePopup = (instance, popup, container, returnFocus, didClose) => {
   })
 }
 
-<<<<<<< HEAD
-const triggerDidCloseAndDispose = (instance, didClose) => {
-  setTimeout(() => {
-    if (typeof didClose === 'function') {
-      didClose.bind(instance.params)()
-    }
-=======
 /**
  * @param {SweetAlert2} instance
  * @param {Function} didClose
@@ -256,7 +214,6 @@ const triggerDidCloseAndDispose = (instance, didClose) => {
       didClose.bind(instance.params)()
     }
     // @ts-ignore
->>>>>>> upstream/main
     instance._destroy()
   })
 }

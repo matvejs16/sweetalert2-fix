@@ -9,8 +9,4 @@
 
 ## Reporting a Vulnerability
 
-<<<<<<< HEAD
-https://github.com/sweetalert2/sweetalert2/issues or limon.monte@protonmail.com
-=======
 https://github.com/sweetalert2/sweetalert2/issues or sweetalert2@gmail.com
->>>>>>> upstream/main

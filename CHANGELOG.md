@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 ## [11.7.3](https://github.com/sweetalert2/sweetalert2/compare/v11.7.2...v11.7.3) (2023-02-28)
 
 
@@ -113,7 +111,6 @@
 
 * toast pop up sizing based on message length ([#2540](https://github.com/sweetalert2/sweetalert2/issues/2540)) ([251ffea](https://github.com/sweetalert2/sweetalert2/commit/251ffea84b11ebdaf5b3af233a3a4539b8d80533))
 
->>>>>>> upstream/main
 ## [11.6.4](https://github.com/sweetalert2/sweetalert2/compare/v11.6.3...v11.6.4) (2022-10-27)
 
 

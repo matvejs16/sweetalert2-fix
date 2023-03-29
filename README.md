@@ -1,11 +1,6 @@
 <a href="https://sweetalert2.github.io/">
   <img src="./assets/swal2-logo.png" width="498" alt="SweetAlert2">
 </a>
-<<<<<<< HEAD
-
-A beautiful, responsive, customizable, accessible (WAI-ARIA) replacement <br> for JavaScript's popup boxes. Zero dependencies.
-With fix for russian browsers or russian web pages
-=======
 
 A beautiful, responsive, customizable, accessible (WAI-ARIA) replacement <br> for JavaScript's popup boxes. Zero dependencies.
 
@@ -138,4 +133,3 @@ Support and Donations
 ---------------------
 
 Has SweetAlert2 helped you create an amazing application? You can show your support via [GitHub Sponsors](https://github.com/sponsors/limonte)
->>>>>>> upstream/main
