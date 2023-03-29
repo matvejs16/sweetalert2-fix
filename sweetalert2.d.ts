@@ -129,7 +129,7 @@ declare module 'sweetalert2' {
     /**
      * Gets the "Confirm" button.
      */
-    function getConfirmButton(): HTMLButtonElement | null
+    function getConfirmButton(): HTMLButtonElement | undefined
 
     /**
      * Gets the "Deny" button.

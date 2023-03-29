@@ -33,29 +33,17 @@ export const dispatchCustomEvent = (elem, eventName, eventDetail = {}) => {
 }
 
 export const triggerKeydownEvent = (target, key, params = {}) => {
-<<<<<<< HEAD
-  const e = document.createEvent('HTMLEvents')
-  e.key = key
-  e.initEvent(
-=======
   const event = document.createEvent('HTMLEvents')
   event.key = key
   event.initEvent(
->>>>>>> upstream/main
     'keydown',
     true, // bubbles
     true // cancelable
   )
   for (const param in params) {
-<<<<<<< HEAD
-    e[param] = params[param]
-  }
-  target.dispatchEvent(e)
-=======
     event[param] = params[param]
   }
   target.dispatchEvent(event)
->>>>>>> upstream/main
 }
 
 export const ensureClosed = () => {
